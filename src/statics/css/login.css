@@ -1,0 +1,172 @@
+.banner {
+  width: 100%;
+  height: 340px;
+  margin-bottom: 20px;
+  float: left;
+  background: url(../../assets/banner/bg_banner0311.png);
+}
+
+.banner .banner_login {
+  width: 90%;
+  margin: 0 auto;
+  background: url(../../assets/banner/banner_client.jpg) no-repeat;
+  background-size: over;
+  background-position: center 0;
+  height: 340px;
+}
+
+.banner .banner_login .login {
+  width: 295px;
+  float: right;
+  margin-right: 69px;
+  margin-top: 20px;
+  height: 301px;
+  background: url(../../assets/login.png) no-repeat;
+  position: relative;
+}
+
+.banner .banner_login .login .login_top {
+  width: 236px;
+  margin-left: 29px;
+  height: 45px;
+  border-bottom: 1px solid #CBCBCB;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.banner .banner_login .login .login_top .switch {
+  height: 40px;
+  font-size: 16px;
+  width: 236px;
+}
+
+.banner .banner_login .login .login_top .switch .switch_btn_focus {
+  width: 236px;
+  float: left;
+  color: #333;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  outline: none;
+  *hide-focus: expression(this.hideFocus=true);
+  text-align: center;
+}
+
+.banner .banner_login .login .login_top .switch .switch_btn_focus:hover {
+  text-decoration: none;
+}
+
+.banner .banner_login .login .login_top .switch #switch_bottom {
+  position: absolute;
+  bottom: -1px;
+  _bottom: -2px;
+  border-bottom: 4px solid #c14860;
+  width: 236px;
+  *left: 0;
+}
+
+.banner .banner_login .login_main {
+  width: 222px;
+  margin: 0 auto;
+}
+
+.banner .banner_login .login_main .yhmp {
+  width: 222px;
+  height: 32px;
+  background-color: #FFF;
+  float: left;
+  margin-top: 7px;
+}
+
+.banner .banner_login .login_main .yhmp .input_name {
+  line-height: 32px;
+  height: 30px;
+  width: 185px;
+  border: 1px solid #D7D7D7;
+  background: url(../../assets/img/person.png) no-repeat 10px;
+  padding-left: 35px;
+  color: #294A78;
+}
+
+.banner .banner_login .login_main .yhmp .sel_full_name {
+  line-height: 32px;
+  height: 30px;
+  width: 221.6px;
+  border: 1px solid #D7D7D7;
+  background: url(../../assets/img/cus.png) no-repeat 10px;
+  padding-left: 35px;
+  color: #294A78;
+}
+
+.banner .banner_login .login_main .yhmp .input_pass {
+  line-height: 32px;
+  height: 30px;
+  width: 185px;
+  border: 1px solid #D7D7D7;
+  background: url(../../assets/img/password.png) no-repeat 10px;
+  padding-left: 35px;
+  color: #294A78;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner .banner_login .login_main .yzmp {
+  width: 222px;
+  height: 32px;
+  float: left;
+  margin-top: 7px;
+  line-height: 32px;
+}
+
+.banner .banner_login .login_main .yzmp .input_yzm {
+  line-height: 32px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid #D7D7D7;
+  color: #294A78;
+  background-color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+}
+
+.banner .banner_login .login_main .yzmp .yzm_r {
+  float: left;
+  margin-top: 6px;
+  *margin-top: 2px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.banner .banner_login .login_main .denglup {
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+  margin-top: 7px;
+}
+
+.banner .banner_login .login_main .denglup a {
+  color: #FFF;
+  background-color: #C14860;
+  display: block;
+}
+
+.banner .banner_login .login_main .denglup a:hover {
+  color: #FFF;
+  background-color: #81283a;
+}
+
+.banner .banner_login .login_main .wjmmp {
+  color: #656565;
+  float: left;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.banner .banner_login .login_main .wjmmp a {
+  color: #656565;
+}
